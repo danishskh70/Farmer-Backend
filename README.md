@@ -1,5 +1,15 @@
 # Farmer Backend
 
+---
+
+This README includes:
+1. A **Tech Stack Table** outlining the tools used and their purposes.
+2. Clear **Installation and Setup** steps.
+3. An **API Endpoints Table** for quick reference.
+4. A well-structured **Project Layout** and future enhancement ideas.
+
+Let me know if you'd like additional customizations!
+
 A backend system for managing farmer-related data and providing notifications to farmers based on weather conditions and soil moisture metrics.
 
 ---

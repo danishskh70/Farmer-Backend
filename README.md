@@ -1,30 +1,44 @@
-# Farmer-Backend
 # Farmer Backend
 
-A backend system for managing farmer-related data and providing notifications based on weather conditions, soil moisture data, and other critical metrics.
+A backend system for managing farmer-related data and providing notifications to farmers based on weather conditions and soil moisture metrics.
 
 ---
 
 ## Features
-- **Farmer Management**: CRUD operations for farmer data, including name, address, coordinates, and crop details.
-- **Authentication**: Secure password hashing and authentication using JWT tokens.
-- **Notifications**: 
-  - SMS alerts (via Fast2SMS) for harmful weather conditions.
-  - Email notifications (via Brevo or custom Node.js email sender).
-- **Weather Integration**: Notify farmers based on integrated weather data and soil moisture readings.
+- **Farmer Management**: Create, Read, Update, and Delete farmer data.
+- **Secure Authentication**: Password hashing using `bcrypt` and JWT-based authentication.
+- **Notifications**:
+  - SMS alerts using **Fast2SMS**.
+  - Email notifications using **Brevo** or a custom Node.js script.
+- **Integration**:
+  - Real-time weather data.
+  - Soil moisture analytics.
 
 ---
 
 ## Tech Stack
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (with Mongoose ODM)
-- **Authentication**: JWT, bcrypt
-- **Notifications**: Fast2SMS, Brevo (Sendinblue)
-- **Other Tools**: Postman for API testing
+| **Technology** | **Purpose**                  |
+|-----------------|------------------------------|
+| Node.js         | Backend runtime             |
+| Express.js      | Web framework               |
+| MongoDB         | Database                    |
+| Mongoose        | MongoDB ODM                 |
+| bcrypt          | Password hashing            |
+| JSON Web Tokens | Authentication              |
+| Fast2SMS        | SMS Notifications           |
+| Brevo           | Email Notifications         |
 
 ---
 
-## Installation
-1. Clone the repository:
+## Installation and Setup
+Follow these steps to set up the project on your local machine:
+
+### Prerequisites
+- **Node.js** (v16 or higher)
+- **MongoDB** (local or cloud instance)
+- **Git**
+
+### Steps
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/danishskh70/Farmer-Backend.git
